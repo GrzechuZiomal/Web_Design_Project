@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1160px) {
+  .section-5 .embed-responsive-item {
+    margin: auto;
+    width: 42vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .section-5 .embed-responsive-item {
+    margin: auto;
+    width: 94vw;
+    height: 50vh;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+
+  .section-5 .embed-responsive-item {
+    display: flex;
+  }
+
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .section-5 .embed-responsive-item {
+    margin: auto;
+    width: 90vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  header .navbar-brand {
+    padding-left: 0rem;
+    font-size: 2vmin;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  header .navbar-toggler {
+    font-size: 5vmin;
+  }
+}
